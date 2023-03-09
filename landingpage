@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food and Restaurant Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Baby chilly Restaurant</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Reservations</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="hero-image">
+		<div class="hero-text">
+			<h2>Discover Our Delicious Menu</h2>
+			<p>From Italian to Asian cuisine, we have it all!</p>
+			<a href="#" class="btn">View Our Menu</a>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<h3>About Us</h3>
+			<p>We are a family-owned restaurant that has been serving the community for over 20 years. Our mission is to provide high-quality, delicious food and excellent service to our customers.</p>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</section>
+
+	<section class="menu">
+		<div class="container">
+			<h3>Our Menu</h3>
+			<div class="menu-items">
+				<div class="menu-item">
+					<img src="https://th.bing.com/th?q=Pizza+with+Chicken&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Pizza">
+					<h4>Pizza</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span>$12.99</span>
+				</div>
+				<div class="menu-item">
+					<img src="https://th.bing.com/th?q=Good+Sushi&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Sushi">
+					<h4>Sushi</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span>$15.99</span>
+				</div>
+				<div class="menu-item">
+					<img src="https://th.bing.com/th?q=Pasta+Dish&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Pasta">
+					<h4>Pasta</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<span>$10.99</span>
+				</div>
+			</div>
+			<a href="#" class="btn">View Full Menu</a>
+		</div>
+	</section>
+
+	<section class="reservation">
+		<div class="container">
+			<h3>Make a Reservation</h3>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+				<label for="date">Date</label>
+				<input type="date" id="date" name="date" required>
+				<label for="time">Time</label>
+				<input type="time" id="time" name="time" required>
+				<label for="guests">Number of Guests</label>
+				<input type="number" id="guests" name="guests" required>
+				<button type="submit" class="
